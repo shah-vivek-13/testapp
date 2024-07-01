@@ -1,0 +1,22 @@
+{
+    "variable": {
+        "name": [
+            {
+                "description": "Name of the Role Policy",
+                "type": "string"
+            }
+        ],
+        "policy": [
+            {
+                "description": "JSON formatted inline policy document",
+                "type": "string"
+            }
+        ],
+        "role": [
+            {
+                "description": "The name of the IAM role to attach to the policy",
+                "type": "string"
+            }
+        ]
+    }
+}

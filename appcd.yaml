@@ -1,0 +1,9 @@
+pr_handling:
+  actions:
+    # - opened
+    # - synchronize
+    - merged
+env:
+  APPCD_TOKEN: ${{ secrets.APPCD_TOKEN }}
+  GITHUB_SECRET_TOKEN: ${{ secrets.GITHUB_SECRET_TOKEN }} 
+appstack_name: "appstack_testapp"
